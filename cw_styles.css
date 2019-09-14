@@ -12,8 +12,6 @@
    Filename: cw_styles.css
 
 */
-
-
 /* Structural Styles */
 html{
    background: rgb(151, 151, 151);
@@ -30,17 +28,18 @@ nav a{
 }
 footer{
    background: rgb(101, 101, 101);
+   color: white;
    font-size: 0.8em;
    text-align: center;
    padding-top: 1px;
    padding-bottom: 1px;
 }
-
-
-
-
-
-
+/*changed the background color in the html 
+changed background color and font in the body
+changed the h1 and h2 font weight
+took away the underline in the nav links
+changed the fotter background color, text color, font size, 
+centered the text added padding for top and bottom
 /* Body Header Styles */
 body > header{
    background: rgb(97,97,211);
@@ -54,9 +53,9 @@ body > header > h1 {
 h1 > span{
    color: rgba(255,255,255,0.4);
 }
-
-
-
+/*body added a background color and changed the title to a 
+different color, font, font size, and took out the margin
+cahnged the last word in the title to a different aplha 
 
 /* Navigation Styles */
 nav#mainLinks a{
@@ -70,18 +69,20 @@ nav#mainLinks a:hover, a:active{
    opacity: 0.8; 
    background: rgba(51,51,51,0.5);
 }
-
-
-
-
+/*changed the top links padding
+changed unvisitd and visited links to white,
+changed hover and active links to a different background color
+and opcity
 /* Outline Styles */
 nav#outline{
    color: rgb(51,51,51);
    font-size: 0.8em;
 }
+/* changed the whole color and font size*/
 nav#outline h1{
    text-align: center;
 }
+/* centered all h1's*/
 nav#outline > ol{
    line-height: 2em;
    margin-top: 0px;
@@ -90,20 +91,22 @@ nav#outline > ol{
    margin-right: 5px;
    list-style-type: upper-roman; 
 }
+/*FIRST LEVEL:added line height, took out top and bottom margin
+added left and right margin and the list marker to upper
+case roman numerals*/
 nav#outline > ol ol{
    list-style-type: upper-alpha;
 }
+/*SECOND LEVEL: changed list marker to uppercase*/
 nav#outline a:visited, a:link{
    color: rgb(101,101,101);
-} 
+}
+/* changed visited and unvisited links color*/ 
 nav#outline a:hover, a:active{
    color: rgb(97,97,211);
    text-decoration: underline;
 }
-
-
-
-
+/*changed hovering and active links color and made the text underlined*/
 
 /* Section Styles */
 section{
@@ -113,10 +116,9 @@ section header h1{
    font-size: 2.2em;
    padding-left: 10px; 
 }
-
-
-
-
+/*changed the background color to section
+changed h1 in the header of the section to a bigger font size
+and added left pading
 /* Article Styles */
 article h2{
    font-size: 1.4em;
@@ -125,12 +127,9 @@ article p:first-of-type::first-letter{
    font-size: 2em;
    text-align: center;
 }
-
-
-
-
-
-
+/*made all h2 font sizes bigger
+changed the first letter in the first paragragh to a bigger 
+font and centered 
 /* Aside Styles */
 aside{
    font-size: 0.9em;
@@ -139,5 +138,7 @@ aside > h1{
    font-size: 1.4em;
    text-align: center;
 }
+/*made the font size bigger in the whole aside
+made the h1's under the aside a bigger font and centered 
 
 
